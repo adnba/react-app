@@ -2,8 +2,8 @@ import React from 'react';
 import styles from './Person.css';
 
 export default (props) => {
-  if (Math.random() > 0.7)
-    throw new Error('Something went wrong.');
+ /*  if (Math.random() > 0.7)
+    throw new Error('Something went wrong.'); */
 
   return (
     <div className={styles.Person}>
